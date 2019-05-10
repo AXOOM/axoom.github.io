@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+# Open Source projects
 
-You can use the [editor on GitHub](https://github.com/AXOOM/axoom.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## .NET libraries
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Axoom.Extensions.Logging.Console](https://github.com/AXOOM/Axoom.Extensions.Logging.Console)  
+asynchronous JSON-formatted console/stdout logging for .NET Core
 
-### Markdown
+[Axoom.Extensions.Prometheus.Standalone](https://github.com/AXOOM/Axoom.Extensions.Prometheus.Standalone)  
+exposing Prometheus metrics on .NET Core without MVC routing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### APIs
 
-```markdown
-Syntax highlighted code block
+[OpenServiceBroker](https://github.com/AXOOM/OpenServiceBroker)  
+client and server implementations of Open Service Broker API
 
-# Header 1
-## Header 2
-### Header 3
+[PowerDns.Client](https://github.com/AXOOM/PowerDns.Client)  
+client library for the PowerDNS API
 
-- Bulleted
-- List
+### Kubernetes
 
-1. Numbered
-2. List
+[Contrib.KubeClient.CustomResources](https://github.com/AXOOM/Contrib.KubeClient.CustomResources)  
+extension for KubeClient to simplify working with Kubernetes Custom Resources
 
-**Bold** and _Italic_ and `Code` text
+[Contrib.KubeClient.ServiceCatalog](https://github.com/AXOOM/Contrib.KubeClient.ServiceCatalog)  
+client library for Kubernetes Service Catalog
 
-[Link](url) and ![Image](src)
-```
+[Contrib.IdentityServer4.KubernetesStore](https://github.com/AXOOM/Contrib.IdentityServer4.KubernetesStore)  
+allows IdentityServer4 to fetch Clients, API Resources, etc. using Kubernetes Custom Resources
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## dotnet-new project templates
 
-### Jekyll Themes
+[Library](https://github.com/AXOOM/Templates.Library)  
+libraries using .NET Core and NuGet
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AXOOM/axoom.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Service](https://github.com/AXOOM/Templates.Service)  
+headless services using .NET Core and Kubernetes
 
-### Support or Contact
+[WebService](https://github.com/AXOOM/Templates.WebService)  
+webservices using ASP.NET Core and Kubernetes
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[ServiceBroker](https://github.com/AXOOM/Templates.ServiceBroker)  
+implementing Open Service Broker API
+
+[PortalApp](https://github.com/AXOOM/Templates.PortalApp)  
+AXOOM Portal Apps using ASP.NET Core and Kubernetes
+
+## Tools
+
+[helm-autoversion](https://github.com/AXOOM/helm-autoversion)  
+wrapper for Helm that auto-downloads client matching server version
+
+[gcloud-helmfile](https://github.com/AXOOM/gcloud-helmfile)  
+combines gcloud and helmfile in a Docker image for easy deployment to GKE 
+
+[Quberneeds](https://github.com/AXOOM/Quberneeds)  
+runs helmfiles embedded in Helm charts
+
+
+## Helm Charts
+
+[charts](https://github.com/AXOOM/charts)  
+general purpose Helm Charts
+
+*[Imprint](https://axoom.com/en/imprint)*
