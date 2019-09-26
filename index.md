@@ -27,7 +27,7 @@ client library for Kubernetes Service Catalog
 [Contrib.IdentityServer4.KubernetesStore](https://github.com/AXOOM/Contrib.IdentityServer4.KubernetesStore)  
 allows IdentityServer4 to fetch Clients, API Resources, etc. using Kubernetes Custom Resources
 
-## dotnet-new project templates
+## .NET project templates
 
 [Library](https://github.com/AXOOM/Templates.Library)  
 libraries using .NET Core and NuGet
@@ -44,17 +44,10 @@ implementing Open Service Broker API
 [PortalApp](https://github.com/AXOOM/Templates.PortalApp)  
 AXOOM Portal Apps using ASP.NET Core and Kubernetes
 
-## Tools
-
-[helm-autoversion](https://github.com/AXOOM/helm-autoversion)  
-wrapper for Helm that auto-downloads client matching server version
+## Docker Images
 
 [gcloud-helmfile](https://github.com/AXOOM/gcloud-helmfile)  
 combines gcloud and helmfile in a Docker image for easy deployment to GKE 
-
-[Quberneeds](https://github.com/AXOOM/Quberneeds)  
-runs helmfiles embedded in Helm charts
-
 
 ## Helm Charts
 
